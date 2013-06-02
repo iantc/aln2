@@ -1,0 +1,377 @@
+/*  
+Theme Name: ALN 2.0
+Theme URI: 
+Description: 
+Author: Ian Chan
+Author URI: http://ic.lib20.net/
+*/
+
+@import "forms.css";
+
+body {
+position: relative;
+margin: 0px;
+padding: 0px;
+background: #315D73;
+/*background: #F3F4EE;*/
+font: .95em Arial, "Trebuchet MS",Verdana, Helvetica, sans-serif;
+color: #333333;}
+a:link, a:visited{
+color: #1b4095;	
+text-decoration: underline;}
+#s{
+margin-top: 28px;
+margin-left: 20px;
+width: 150px;
+border: none;
+background: none;}
+img{
+border: none;}
+#topcontentwrap{
+background: url(img/banner1.jpg) 10% -10px no-repeat #314B4F;
+margin: 0px;
+padding: 10px 0px;
+z-index: 75;
+position: relative;}
+#logobox_wrapper{
+position: absolute;
+top: 0px;
+height: 185px;
+width: 178px;}
+#logobox{
+position: absolute;
+height: 185px;
+top:0px;
+z-index:1;
+left: 0px;
+width: 178px;
+background: url(img/aln_logo2a.png) 50% 20px no-repeat transparent;
+cursor: pointer;}
+#infoMenu {
+z-index: 100;
+height: 30px;
+margin: 0px 0px;}
+#svcsMenu {
+background: #4C8C40;
+z-index: 75;
+position: relative;
+height: 40px;
+padding: 10px;
+min-width: 700px;
+margin: 10px 45px 0px 180px;}
+ul#nav li ul li a {color:#fff !important;}
+#topcontent,
+#contentwrap{
+position: relative;
+margin: 0px auto;
+padding: 0px 0px 10px 0px;
+min-width:900px;
+max-width: 1200px;
+text-align: left;}
+#contentwrap{
+z-index:20;
+padding-bottom: 0px;}
+#topcontent{
+z-index: 100;}
+#left{
+position: relative;
+margin-right: 30px;
+margin-left: 170px;
+padding-top:10px;
+min-height: 675px;
+background: #315D73;
+z-index:10;}
+.sidebar-layout #left{
+margin-right:305px;}
+#left a:link, #left a:visited{
+text-decoration: none;}
+.access-only{
+display: none;}
+.trilink{
+position: relative;
+padding-top: 5px;
+padding-bottom: 5px;}
+.searchbox{
+position: relative;
+height: 83px;
+display: none;
+width: 215px;
+background: url(img/search.gif) top left no-repeat;}
+.moduleone{
+position: relative;
+margin-top: 5px;
+padding-bottom: 12px;}
+.moduletwo{
+position: relative;
+padding: 0px 23px 23px 23px;}
+.moduletwo ul{
+position: relative;
+margin-left: 15px;	}
+.moduletwo a:link, .moduletwo a:visited{
+position: relative;
+height: 100%;
+display: block;
+padding: 4px 0px 4px 15px;
+background: url(img/btn.gif) left center no-repeat;
+color: #008FFF;	}
+#right{
+position: absolute;
+background: #ECF4F7;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+z-index:1;
+right: 10px;
+top: 10px;
+width: 290px;}
+#right h2{
+z-index:1;}
+#right h3{
+font-weight: normal}
+
+#rightcontent .moduletwo ul{
+margin-left: 0px;
+padding-left: 10px;
+list-style: none;}
+
+#rightcontent .moduletwo a{
+color: #036;}
+
+#rightcontent .addthis_container a{
+background-image: none;}
+
+#mission{
+position: relative;
+margin: 0px 15px 25px 10px;
+color:#336600;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+font-size: 1.35em;
+padding: 16px 30px;
+background: #ECF4F7;}
+#frontpageContainer {
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+background: #fefefe;
+position: relative;
+z-index:1;
+padding: 20px;
+margin: 0px 10px 10px 10px;
+font-weight: normal;}
+#frontpageContainer .navigation{
+margin-left: 20px;}
+#frontpageContainer .front-item {
+border-top: 5px solid #ddd;
+background: #f6f6f6;
+width:auto;
+padding: 0px 20px 5px 35px;
+margin: 10px 0px 15px 0px;}
+#frontpageContainer h2 {
+font-weight: normal;}
+#frontpageContainer h3 {
+color: #CC3300;
+text-indent:-15px;
+margin-bottom: 5px;
+line-height: 130%;
+font-weight: normal;}
+#frontpageContainer div.front-item-date {
+margin-left: 5px;}
+#frontpageContainer p {
+color: #555;
+margin-left: 5px;
+font-size:1em;}
+#frontpageContainer a {
+text-decoration: none;}
+#newsHeader{
+font-weight: normal;
+height:30px;}
+.newsIndex .posthead{
+position: relative;
+width:99%;
+clear: both;
+float: left;
+margin: 0px 0px 15px 0px;}
+.newsIndex .postindexitem{
+margin:0px;
+padding:0px;}
+.newsIndex .postindexitem a:link,
+.newsIndex .postindexitem a:active,
+.newsIndex .postindexitem a:visited,
+.newsIndex .postindexitem a:hover{
+text-decoration: none;
+border-bottom: 1px dotted #aaa;}
+.newsIndex .posthead p{
+margin:0px 20px 0px 20px; }
+.newsIndex .postdetails{
+position: relative;
+color: #666;	
+font-size:85%;}
+.newsIndex .thepost{
+position: relative;
+padding-left: 15px;}
+.newsIndex .postbottom{
+font-size:90%;
+position: relative;
+float:right;
+margin: 2px 0px 0px 10px;
+width: 80px;
+color: #777;
+font-style:italic;}
+.newsIndex,
+.pageContent{
+z-index:1;
+background: #fefefe;
+position:relative;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+padding: 10px 20px 20px 20px;
+margin: 0px 10px 10px 10px;
+min-height:480px;}
+.newsIndex h1,
+.pageContent h1{
+position: relative;
+font-weight: normal;
+padding-top: 4px;
+font-size: 1.75em;
+font-weight: normal;
+background: url(img/heading1-bg.jpg) 100% 0 no-repeat #F1EDD4 /*E8ECB1*/;
+text-align:left;
+color: #404040;
+padding: 24px 20px 16px 20px;
+margin: -10px -20px 24px -20px;}
+#newsContainer p,
+.pageContent p{
+line-height: 130%;
+padding: 0px 10px 20px 10px;}
+.pageContent h4,
+.pageContent h3{
+padding: 0px 10px 0px 10px; }
+.pageContent ul {
+list-style: square;
+padding: 0px;
+margin: 0px 0px 10px 40px;}
+.pageContent li{
+padding: 0px 0px 14px 25px;}
+.ec3_eventday{
+background: #930;
+color: #fff;}
+h2{
+padding-top: 4px;
+font-size: 20px;
+color: #333;	 }
+h3{
+position: relative;
+padding-left: 5px;
+font-weight: bold;
+color: #000000; }
+.footer-link{
+position: relative;
+margin: auto;
+padding: 15px 18px 20px 22px;
+text-align: center;}
+#pageFooter {
+display: none;
+height: 200px;
+z-index:10;
+position: relative;
+background: #e8e8e8;
+width: 100%;
+bottom:0px;
+margin-top: 15px;
+text-align: center}
+#pageFooter[id] {
+position: fixed;
+text-align: center}
+#pageFooter ul{
+bottom:-120px;
+display: inline;
+position: absolute;
+width:450px;
+margin: 0px auto;}
+
+#wp-calendar table caption a{
+color: #333;
+text-decoration: none;
+font-weight: bold;}
+
+#wp-calendar table caption {
+color: #333;
+text-align: left;
+margin-top: 20px;
+padding: 3px 6px;
+border: 1px dotted #aaa;}
+#cformsform{
+margin: 0px;
+padding: 0px; }
+
+#site-footer-wrapper {
+position: relative;
+height:250px;
+background: #353535;
+width: 100%;}
+#site-footer{
+position: relative;
+margin: 0px auto;
+padding: 10px 0px;
+background: transparent;
+width: 86%;
+min-width:900px;
+max-width: 1200px;
+text-align: left;}
+#footerNav{margin-left:150px;}
+#footerNav li{
+display: inline;}
+#footerNav li a{
+float: left;
+list-style: none;
+color: #fff;
+text-decoration:none;
+display: block;
+margin: 8px 16px;
+padding: 4px 10px;
+border-right: none;}
+
+.ec3_postday, .ec3_eventday{
+background: #fff;
+border: 1px dotted #930}
+
+.kjo-link a,.kjo-link p{display: none;}
+
+#post-696 .pageText li,
+#post-696 .pageText .tml-links,
+#post-696 .pageText .tml-links li{
+list-style: none;padding:0px;margin: 0px}
+
+#post-696 .pageText .tml-links{
+margin: 0px 0px 50px 10px}
+
+
+#post-696 .pageText h2{
+display: none;height: 0px;padding:0px;margin: 0px;}
+
+#highlighted_wrapper{clear:both;width:100%;float:left;padding: 0 0 30px;}
+#highlighted_wrapper li{list-style:none;padding:0;margin:0;}
+.section-wrapper{float:left;width:33.3%;}
+.svcs_area{margin:10px 15px;border:1px solid #ccc;padding:2px;height:180px;}
+#products .section-header a{background:#C95000;color:#fff;}
+#grants .section-header a{background:#CB4D4D;color:#fff;}/*bc0000*/
+#membership .section-header a{background:#F28F4D;color:#fff;}
+.svcs_area .section-header a{font-size:1.25em;padding:15px;display:block;border:1px solid #ccc;margin: 0 0 15px}
+.svcs_area ul{padding:0;margin:0;}
+.svcs_area ul li a{padding:1px 15px;margin:4px 0;font-size:1em;display:block}
+#about-aln-wrapper{margin:25px auto;clear:both;width:95%;position:relative}
+#about-aln-left{float:left;width:49.5%;border-right:1px solid #ddd}
+#about-aln-right{float:right;width:49.5%;}
+#about-aln-left p{margin:0 20px 20px 40px; }
+#about-aln-right p{margin:0 20px 20px 40px; }
+
+/* demo 2 */
+.home3 .svcs_area{margin:10px 15px;border:1px solid #ccc;padding:2px;min-height:150px;height:auto}
+.home3 .section-wrapper{float:none;width:90%;}
+.home3 #about-aln-left{float:left;width:43%;border-right:none}
+.home3 #about-aln-right{float:left;width:56%;padding-top:10px}
+
+.user-agent{display:none;}

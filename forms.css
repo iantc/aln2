@@ -1,0 +1,399 @@
+/*                                                    */
+/*  main 'top-level' form elements                    */
+/*                                                    */
+
+.fs-form-wrapper{width:100%;float:left;clear:both;padding:0;}
+
+#si_contact_form1,#si_contact_form2 {width:700px;margin:10px 0 20px 30px;padding:0;color:#555;clear:both;border:1px solid #ddd; background:#f9f9f9;padding:20px;float:left;border-radius:6px;-moz-border-radius:6px;;-webkit-border-radius:6px;box-shadow:0 0 9px #eee;-moz-box-shadow:0 0 9px #eee;-webkit-box-shadow:0 0 9px #eee;}
+#si_contact_form1 fieldset	{ 
+	padding:10px; 
+	margin:5px auto; 
+	border:1px solid #aaa !important;
+	width: 600px;
+}
+
+.thank-you{color:#444;font-size:1.1em;padding:0 40px 350px 40px}
+
+.req-description{padding-left:146px; text-align:right;}
+
+/*                                                    */
+/* global definitions for field labels                */
+/*                                                    */
+
+#si_contact_form1 .label-holder{position:relative;width:138px; text-align:right; float:left; clear:left; padding-top:14px;padding-bottom:5px;padding-right:10px;}
+#si_contact_form1 label {display:-moz-inline-box; /*for mozilla*/ display:inline-block; /*for Opera & IE*/	vertical-align:top;	color: #555;padding-right:9px;}
+#si_contact_form1 span.required{ color:#FF0033;position:absolute;margin-left:3px;}
+#si_contact_form1 .req-description span.required{ color:#FF0033;position:relative;display:inline;}
+
+
+.form-description{padding:20px 0 0 148px;float:left;}
+/*                                                    */
+/*   FORM FIELDS general formatting                   */
+/*                                                    */
+#si_contact_form2 .field-labels{padding:15px 0 5px;color:#555}
+#si_contact_form2 #si_contact_ex_field2_3{width:400px}
+#si_contact_form2 fieldset{border:1px solid #ddd;border-radius:6px;-moz-border-radius:6px;;-webkit-border-radius:6px;width:95%;margin-top:20px}
+#si_contact_form2 legend{padding-top:10px;margin-bottom:5px;border-bottom:1px solid #ccc;width:600px}
+#si_contact_form1 .input-holder{text-align:left; float:left; padding-top:10px;padding-bottom:5px;}
+#si_contact_form1 .form-field{text-align:left; float:left; padding:2px; margin:0;}
+.format-selections-label{clear:both;padding-top:10px;display:block;float:none;margin-bottom:-20px}
+#si_contact_form2 #si_contact_ex_field2_5_1,#si_contact_form2 #si_contact_ex_field2_5_4,#si_contact_form2 #si_contact_ex_field2_5_7,#si_contact_form2 #si_contact_ex_field2_5_8{margin-left:150px}
+#format-selections input,#format-selections label{display:inline;}
+#si_contact_form1 input,
+#si_contact_form1 textarea,
+#si_contact_form1 select,
+#si_contact_form2 input,
+#si_contact_form2 textarea,
+#si_contact_form2 select { 
+	padding:5px;
+	border:1px solid #ccc; 
+	color:#676767;
+	font-size:1em;
+	background:#ffffff url(images/field-bg-top.gif) repeat-x top left;
+	vertical-align:top;
+box-shadow:0 0 9px #eee;-moz-box-shadow:0 0 9px #eee;-webkit-box-shadow:0 0 9px #eee
+}
+#si_contact_form2 #si_contact_ex_field2_5_2,
+#si_contact_form2 #si_contact_ex_field2_5_3,
+#si_contact_form2 #si_contact_ex_field2_5_5,
+#si_contact_form2 #si_contact_ex_field2_5_6,
+#si_contact_form2 #si_contact_ex_field2_5_7{margin-left:175px;}
+
+#si_contact_form2 #si_contact_ex_field2_5_3{margin-bottom:15px}
+#si_contact_form2 #si_contact_ex_field2_5_7{margin-bottom:35px}
+#si_contact_form2 #si_contact_captcha_code2{padding:11px!important}
+#si_contact_form2 input[type="checkbox"]{margin-bottom:10px}
+
+#si_contact_form1 input:hover,
+#si_contact_form1 textarea:hover,
+#si_contact_form1 select:hover,
+#si_contact_form2 input:hover,
+#si_contact_form2 textarea:hover,
+#si_contact_form2 select:hover	{
+	border: 1px solid #FFCC00;
+	background:#ffffff url(images/field-bg-bottom.gif) repeat-x bottom left; 
+}
+
+#si_contact_form1 input:focus,
+#si_contact_form1 textarea:focus,
+#si_contact_form1 select:focus,
+#si_contact_form2 input:focus,
+#si_contact_form2 textarea:focus,
+#si_contact_form2 select:focus	{ 
+	color:#666;
+	background:#ffffff url(images/field-bg-bottom.gif) repeat-x bottom left; 
+}
+
+#si_contact_form1 textarea,
+#si_contact_form1 input {
+	width:298px; 
+}
+#si_contact_form1 select {
+	width:306px; /* attempt to have equal length */
+}  
+
+#si_contact_form1 select.cfselectmulti	{ 
+	height:7.5em; 
+}
+
+#si_contact_form1 textarea {
+	overflow:auto;
+}
+
+#si_contact_form1 #si_contact_email1{width:175px;}
+
+#si_contact_form1 #si_contact_ex_field1_1{width:125px;}
+
+#si_contact_form1 #si_contact_ex_field1_3{height:55px;}
+/*                                                    */
+/* formatting for text:  "(required)"  & other        */
+/*                                                    */
+
+
+
+/*                                                    */
+/*   check boxes                                      */
+/*                                                    */
+
+input.cf-box-a,
+input.cf-box-b 	{ 
+	margin:1px 0 0 0; 
+	width:16px; 
+	height:22px;
+	border:none!important;
+	background:none!important;
+}
+
+input.cf-box-a 	{ 
+	margin-left:100px; /* check with label 'width' incl. */
+} 
+
+
+/*                                                    */
+/* check box groups                                   */
+/*                                                    */
+
+ol.cf-ol li.cf-box-group {
+	padding: 0 0 5px 100px; 
+} 
+
+
+/*                                                    */
+/*   FORM submit button                               */
+/*                                                    */
+
+#si_contact_form1 .buttons-wrapper{padding-left:146px; text-align:left; float:left; clear:left; padding-top:8px;}
+#si_contact_form1 input.backbutton,
+#si_contact_form1 input.resetbutton,
+#si_contact_form1 input#fsc-submit,
+#si_contact_form2 .buttons-wrapper{padding-left:146px; text-align:left; float:left; clear:left; padding-top:8px;}
+#si_contact_form2 input.backbutton,
+#si_contact_form2 input.resetbutton,
+#si_contact_form2 input#fsc-submit-2	{ 
+	width:auto;  
+	padding:2px 1em; 
+	margin: 0;
+	color:#039;
+	background:url(images/button-bg.gif) repeat-x; 
+	border:1px solid #adadad!important;
+	border-left-color:#ececec!important; 
+	border-top-color:#ececec!important;
+}
+#si_contact_form1 input.resetbutton {
+	margin: 0 5px 0 0;
+}
+#si_contact_form1 input.backbutton {
+	margin: 0 5px 0 0;
+}
+
+#si_contact_form2 input#fsc-submit-2 {margin-top:20px!important;margin-left:5px!important}
+
+/*                                                    */
+/*   FORM FIELDS enhanced error display               */
+/*                                                    */
+.cf_li_err {
+	background:#FFDFDF url(li-err-bg.png) repeat!important;
+	border-color:#DF7D7D;
+	border-style:solid;
+	border-width:1px 0pt;
+	padding:5px 0!important;
+	margin:5px 0!important;
+}
+
+ol.cf-ol li ul.cf_li_text_err {
+	margin:0 0 0 10px;
+	padding:0;
+	color:#333;
+}
+
+ol.cf-ol ul.cf_li_text_err li {
+	background:url(icon-alert.png) no-repeat left 1px!important;
+	list-style:none!important;
+	font-weight:bold;
+	text-indent:0;
+	margin:0 0 2px!important;
+	padding-left:15px;
+}
+ol.cf-ol ul.cf_li_text_err li:before {
+	content:'';
+}
+
+/*                                                    */
+/* 'visitor verification' related styles              */
+/*                                                    */
+label.secq,
+label.seccap {
+	vertical-align:text-bottom;
+	margin-bottom:4px;
+}
+
+input.secinput {
+	vertical-align:text-bottom;
+}
+
+#cforms_captcha6,
+#cforms_captcha5,
+#cforms_captcha4,
+#cforms_captcha3,
+#cforms_captcha2,
+#cforms_captcha {
+	height:15px;
+	width:100px;
+	padding: 4px 4px;
+	margin: 0;
+	vertical-align:text-bottom;
+}
+
+img.captcha	{
+	vertical-align:text-bottom;
+	margin:0 0 0 10px!important;
+	padding:0!important;
+	border:none!important;
+	float:none!important;
+}
+
+img.captcha-reset {
+	vertical-align:text-bottom;
+	background:	url(captcha_reset_white.gif) no-repeat;
+	margin:0 0 2px 3px;
+	width:21px;
+	height:21px;
+	border:none;
+}
+
+img.imgcalendar {
+	border:none;
+}
+
+/*                                                    */
+/* change formatting of response msgs here            */
+/*                                                    */
+
+div.cf_info {
+	color:#333;
+	display:none;
+	padding:10px 15px!important;
+	width:380px;
+	line-height:1.3em;
+	margin:10px auto;
+}
+div.cf_info ol {
+	margin:0;
+	padding:5px 15px 0 30px;
+}
+div.cf_info ol li {
+	padding:1px 0;
+	margin:2px 0;
+}
+div.cf_info a	{
+	color:red!important;
+	text-decoration:underline!important;
+}
+div.success {
+	background:#F9F9F9 none repeat scroll 0%;
+	color:#AAAAAA;
+	display:block;
+}
+div.failure {
+	display:block;
+	background:#FFDFDF url(li-err-bg.png) repeat!important;
+	border-color:#DF7D7D;
+	border-style:solid;
+	border-width:1px 0pt;
+}
+div.waiting {
+	background:#F9F9F9;
+	color:#AAAAAA;
+	display:block;
+}
+/*                                                    */
+/*   formatting for invalid user inputs               */
+/*                                                    */
+#si_contact_form1 .cf_error { 
+	color:red; 
+	border:1px solid #FF0000; 
+}
+div.mailerr {
+	display:block;
+}
+.mailerr,
+#si_contact_form1 .cf_errortxt {
+	color:red; 
+}
+
+/*                                                    */
+/* change formatting of response msgs here            */
+/*                                                    */
+
+p.cf_info 		{
+	margin:10px 0;
+	text-align:center;
+}
+p.success 	{
+	color:green;
+}
+p.failure 	{
+	color:red;
+}
+
+/*                                                    */
+/* disabled fields [disabled] does not work on IE!    */
+/*                                                    */
+
+[disabled] {
+	color:#dddddd;
+	border-color:#dddddd!important;
+	background:none!important;
+}
+.disabled {
+	border-color:#dddddd!important;
+}
+
+/*                                                    */
+/* upload box styling                                 */
+/*                                                    */
+
+#si_contact_form1 input.cf_upload  {
+	width:220px;
+	background: #f9f9f9;
+	border:1px solid #888888;
+}
+
+/*                                                    */
+/*  Other: link love                                  */
+/*                                                    */
+.linklove {
+	margin:6px auto 10px !important;
+	padding:0pt 6px 0pt 0pt !important;
+	text-align:right;
+	width:410px;
+}
+.linklove a,
+.linklove a:visited {
+	font-size: 0.8em;
+	font-family: Tahoma;
+	color:#aaaaaa!important;
+}
+
+
+/*                                                    */
+/*  Other: browser hacks                              */
+/*                                                    */
+*+html ol.cf-ol,
+*+html ol.cf-ol li	{
+	display: inline-block;  /*for ie7*/
+}
+* html ol.cf-ol,
+* html ol.cf-ol li,
+* html span.reqtxt,
+* html span.emailreqtxt { 
+	display: inline-block;
+}
+* html #si_contact_form1 legend { 
+	position:absolute; 
+	left: -8px; 
+	top:0;
+	margin-left:0;
+}
+*+html #si_contact_form1 legend { 
+	position:absolute; 
+	left: -8px;
+	top:0;
+	margin-left:0;
+}
+* html #si_contact_form1 fieldset {
+	position: relative;
+	margin-top:15px;
+	padding-top:25px; 
+}
+*+html #si_contact_form1 fieldset {
+	position: relative;
+	margin-top:15px;
+	padding-top:25px; 
+}
+* html img.captcha	{
+	margin-bottom:1px!important;
+}
+*+html img.captcha	{
+	margin-bottom:1px!important;
+}

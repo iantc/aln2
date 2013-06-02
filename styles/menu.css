@@ -1,0 +1,132 @@
+
+ul#site-about{
+/*background: url(/images/page-bg2.jpg) 0% 0px repeat-x #fff;*/
+float: right;
+margin: 0px 100px 0px 0px;
+padding: 6px 0px 4px 0px;
+text-align:right;
+list-style: none;
+z-index: 125;}
+
+ul#site-about li {
+margin: 0px;
+padding: 4px 0px 0px 0px;
+background-image:none;
+z-index:75;
+float: left;}
+
+ul#site-about li ul{
+padding: 4px 0px 0px 0px;
+margin: 0px;
+list-style: none;
+background:#575757;
+z-index: 125;
+position: absolute;
+width:200px;
+left: -999em;}
+
+/* Styles for Menu Items */
+ul#site-about li a {
+display: block;
+background-image:none;
+z-index:125;
+font-size:.9em;
+padding: 4px 20px 6px 8px; 
+text-decoration: none;
+color: #fff;
+white-space:nowrap;}
+
+ul#site-about li.current_page_item a,
+ul#site-about li:hover,
+ul#site-about li a.over,
+ul#site-about li a:hover {
+color:#5ebbfe;
+background: #575757;
+text-decoration: none;}
+
+ul#site-about li:hover{}
+
+ul#site-about li ul li a {
+margin:5px 5px;
+border: none;
+background:#555;
+text-align: left;
+padding: 4px 5px 7px 10px; 
+display: block;
+width:160px;
+font-size: .95em; }
+
+/* Show submenus when over their parents */
+ul#site-about li:hover ul,
+ul#site-about li.sfhover ul,
+ul#site-about li.over ul{
+left: auto;} 
+
+
+/* svcsMenu */
+ul#nav{
+list-style: none;
+width: 785px;
+border-left: 1px solid #999;
+padding: 0px;
+margin: 10px 10px 0px 0px;
+z-index: 5;}
+
+ul#nav li {
+background-image:none;
+float: left;
+padding: 0px;
+margin: 0px; }
+
+ul#nav li li{
+margin: 1px 0px; }
+
+ul#nav li ul{
+padding: 20px 15px;
+margin: 0;
+list-style: none;
+position: absolute;
+width:210px;
+z-index:200;
+left: -999em;
+background: #686868;}
+
+/* Styles for Menu Items */
+ul#nav li a {
+background-image:none;
+clear: right;
+border-right: 1px solid #999;
+text-decoration:none;
+font-size: 1em;
+color: #fff;
+padding: 5px 10px;
+display: block;}
+
+ul#nav li:hover,
+ul#nav li a:hover,
+ul#nav li.current_page_item a{
+background: #686868;
+color:#5ebbfe;
+text-decoration: none;}
+
+ul#nav li ul li a {
+padding:10px 10px 5px 10px;
+background-image:none;
+background: transparent; /* IE6 Bug */
+text-align: left;
+height:20px;
+border: none;
+font-weight: normal;
+display: block;
+width:170px;
+color: #f692da; }
+
+ul#nav[id] li ul li a {
+min-height:20px;
+height:auto;}
+
+/* Show submenus when over their parents */
+ul#nav li:hover ul,
+ul#nav li.over ul, 
+#nav li.sfhover ul{
+left: auto; } 

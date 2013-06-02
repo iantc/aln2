@@ -1,0 +1,9 @@
+#frontpageContainer{height:600px;}
+#frontpageContainer .navigation{position: relative;}
+#frontpageContainer .front-item {position: relative;}
+.newsIndex h1,
+.pageContent h1{
+margin-top:-14px;}
+.newsIndex,
+.pageContent {
+padding-top:-14px;}
